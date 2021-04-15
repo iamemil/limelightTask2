@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
-
 * {
     box-sizing: border-box;
-      margin: 0;
+    margin: 0;
     padding: 0;
   }
   body {
@@ -13,12 +12,11 @@
   }
   .background {
     background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 70%, #020202), url("../img/background.jpg");
+    background-position: top;
     width: 100vw;
     height: 100vh;
-    background-position: top;
     z-index: 1;
     position: relative;
-    //box-shadow: 0 50px 50px black;
   }
   h1 {
     position: absolute;
@@ -45,103 +43,50 @@
   }
   .layer-1 {
     background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 60%, #020202), url("../img/layer-1.png");
-    z-index: 70;
+    z-index: 10;
   }
   .layer-2 {
     background-image: linear-gradient(to bottom,transparent 20%,rgba(0,0,0,0.9) 90%, rgba(0,0,0,0.9) 70%, #020202), url("../img/layer-2.png");
-    z-index: 80;
+    z-index: 20;
   }
   .layer-3 {
-    
-    background-image: 
-      linear-gradient(to bottom,transparent 63%,rgba(0, 0,0,0.73), #020202), url("../img/layer-3.png");
-    z-index: 90;
+    background-image: linear-gradient(to bottom,transparent 63%,rgba(0, 0,0,0.73), #020202), url("../img/layer-3.png");
+    z-index: 30;
   }
   .content {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     line-height: 1.7;
     position: relative;
-    background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  .text {
-    padding: 4rem 10rem 20rem 40rem;
-  }
-  .rock {
-    background-image: url("https://i.imgur.com/F4xnzjU.png");
     width: 100vw;
     height: 100vh;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background-position: left center;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    background: url("../img/pattern.png") rgba(0,0,0,0.3);
+    background-repeat: repeat;
+    background-blend-mode: multiply;
   }
-  .rocks {
+  .text {
+    padding: 4rem 10rem 0rem 40rem;
+  }
+  .vincents {
     position: absolute;
     z-index: 1000;
   }
-  .rock-1 {
-   width: 100px;
-   height: 100px;
+  .vangogh-1 {
+   width: 400px;
+   height: 400px;
    left: 10%;
-   top: 50%;
+   bottom: 50%;
   }
-  .rock-2 {
-    width: 120px;
-    height: 120px;
-    left: 20%;
-    top: 30%;
+  .vangogh-2 {
+    width: 300px;
+    height: 300px;
+    left: 13%;
+    top: 50%;
   }
-  .rock-3 {
-    width: 80px;
-    height: 80px;
-    left: 10%;
+  .vangogh-3 {
+    width: 100px;
+    height: 100px;
+    left: 25.6%;
     bottom: 20%;
-  }
-  .rock-4 {
-    width: 130px;
-    height: 130px;
-    bottom: 0;
-    left: 31%;
-  }
-  .rock-5 {
-    width: 110px;
-    height: 110px;
-    bottom: 0;
-    left: 5%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  .rock-6 {
-    width: 70px;
-    height: 70px;
-    bottom: 30%;
-    left: 20%;
-  }
-  .rock-7 {
-    width: 120px;
-    height: 120px;
-    bottom: 35%;
-    left: 15%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  .rock-8 {
-    width: 50px;
-    height: 50px;
-    bottom: 25%;
-    left: 25%;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-  }
-  .rock-9 {
-    width: 70px;
-    height: 70px;
-    bottom: 35%;
-    left: 30%;
   }
   
   @media only screen and (max-width: 1200px) {
@@ -150,7 +95,7 @@
       letter-spacing: 0.1rem;
       text-align: center;
     }
-    .rocks, .rock {
+    .vincents, .vincent {
       display: none;
     }
     .text {
