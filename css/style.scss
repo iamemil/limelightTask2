@@ -12,7 +12,7 @@
     color: white;
   }
   .background {
-    background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 70%, #020202), url("../img/small/background.jpg");
+    background-image: linear-gradient(to bottom,transparent 40%,rgba(0,0,0,0.95) 70%, #020202), url("../img/background.jpg");
     width: 100vw;
     height: 100vh;
     background-position: top;
@@ -44,17 +44,17 @@
     background-repeat: no-repeat;
   }
   .layer-1 {
-    background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 60%, #020202), url("../img/small/layer-1.png");
+    background-image: linear-gradient(to bottom,transparent 50%,rgba(0, 0, 0,0.85) 60%, #020202), url("../img/layer-1.png");
     z-index: 70;
   }
   .layer-2 {
-    background-image: linear-gradient(to bottom,transparent 20%,rgba(0,0,0,0.9) 90%, rgba(0,0,0,0.9) 70%, #020202), url("../img/small/layer-2.png");
+    background-image: linear-gradient(to bottom,transparent 20%,rgba(0,0,0,0.9) 90%, rgba(0,0,0,0.9) 70%, #020202), url("../img/layer-2.png");
     z-index: 80;
   }
   .layer-3 {
     
     background-image: 
-      linear-gradient(to bottom,transparent 63%,rgba(0, 0,0,0.73), #020202), url("../img/small/layer-3.png");
+      linear-gradient(to bottom,transparent 63%,rgba(0, 0,0,0.73), #020202), url("../img/layer-3.png");
     z-index: 90;
   }
   .content {

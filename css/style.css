@@ -14,8 +14,8 @@ body {
 }
 
 .background {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, transparent), color-stop(70%, rgba(0, 0, 0, 0.95)), to(#020202)), url("../img/small/background.jpg");
-  background-image: linear-gradient(to bottom, transparent 40%, rgba(0, 0, 0, 0.95) 70%, #020202), url("../img/small/background.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(40%, transparent), color-stop(70%, rgba(0, 0, 0, 0.95)), to(#020202)), url("../img/background.jpg");
+  background-image: linear-gradient(to bottom, transparent 40%, rgba(0, 0, 0, 0.95) 70%, #020202), url("../img/background.jpg");
   width: 100vw;
   height: 100vh;
   background-position: top;
@@ -50,20 +50,20 @@ h1 {
 }
 
 .layer-1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(60%, rgba(0, 0, 0, 0.85)), to(#020202)), url("../img/small/layer-1.png");
-  background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.85) 60%, #020202), url("../img/small/layer-1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(50%, transparent), color-stop(60%, rgba(0, 0, 0, 0.85)), to(#020202)), url("../img/layer-1.png");
+  background-image: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.85) 60%, #020202), url("../img/layer-1.png");
   z-index: 70;
 }
 
 .layer-2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, transparent), color-stop(90%, rgba(0, 0, 0, 0.9)), color-stop(70%, rgba(0, 0, 0, 0.9)), to(#020202)), url("../img/small/layer-2.png");
-  background-image: linear-gradient(to bottom, transparent 20%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0.9) 70%, #020202), url("../img/small/layer-2.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, transparent), color-stop(90%, rgba(0, 0, 0, 0.9)), color-stop(70%, rgba(0, 0, 0, 0.9)), to(#020202)), url("../img/layer-2.png");
+  background-image: linear-gradient(to bottom, transparent 20%, rgba(0, 0, 0, 0.9) 90%, rgba(0, 0, 0, 0.9) 70%, #020202), url("../img/layer-2.png");
   z-index: 80;
 }
 
 .layer-3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(63%, transparent), color-stop(rgba(0, 0, 0, 0.73)), to(#020202)), url("../img/small/layer-3.png");
-  background-image: linear-gradient(to bottom, transparent 63%, rgba(0, 0, 0, 0.73), #020202), url("../img/small/layer-3.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(63%, transparent), color-stop(rgba(0, 0, 0, 0.73)), to(#020202)), url("../img/layer-3.png");
+  background-image: linear-gradient(to bottom, transparent 63%, rgba(0, 0, 0, 0.73), #020202), url("../img/layer-3.png");
   z-index: 90;
 }
 
